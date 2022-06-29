@@ -40,7 +40,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div className='w-1/2'>
-                        <img src="/logo.png" />
+                        <img></img>
                     </div>
                 </div>
             </div>
