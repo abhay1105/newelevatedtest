@@ -15,7 +15,7 @@ const Navbar = () => {
                 </div>
                 <div className='flex space-x-16 text-lg w-72 items-centent justify-start'>
                     <p><a href='/register'>Register</a></p>
-                    <p><a href='/scrapbook'>Scrapbook</a></p>
+                    <div/>
                 </div>
             </div>
             <div></div>
