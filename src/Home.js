@@ -54,8 +54,8 @@ const Home = () => {
                     <div className='lg:w-2/3 p-14 h-max space-y-4'>
                         <p className='text-xl'>ABOUT US</p>
                         <div className='space-y-4'>
-                            <p>The inspiration for this program came when a few high-schoolers came together and realized that a lot of younger students never get to truly explore different fields and career paths when it comes to entering high school. Most students are either forced onto one career path from the start or they simply don't know where to start when it comes to exploring new topics.</p>
-                            <p>At Elevated Learning, we want to change this by introducing students to topics that they may not <span className='bg-orange-200 py-1 px-1.5 rounded'>necessarily</span> see before the high school experience. We also believe that knowledge should be equally accessible to students of all backgrounds, which is why all Elevated Learning programs will be free of charge for every student. Any money that we do raise through our program will be redirected to communities that need it most.</p>
+                            <p>The inspiration for this program came when a few high-schoolers came together and realized that a lot of younger students never get to truly explore different fields and career paths when it comes to entering high school. Most students are either forced onto one career path from the start or they simply don't know where to being when it comes to exploring new topics.</p>
+                            <p>At Elevated Learning, we want to change this by introducing students to topics that they may not <span className='bg-orange-200 py-1 px-1.5 rounded'>necessarily</span> see before the high school experience. We also believe that knowledge should be equally accessible to students of all backgrounds, which is why all Elevated Learning programs are free of charge for every student. Any money that we do raise through our program will be redirected to communities that need it most.</p>
                         </div>
 
                     </div>
@@ -66,33 +66,15 @@ const Home = () => {
                     <div className='w-full flex justify-between items-center px-24'>
                         <div className='flex flex-col justify-center items-center'>
                             <div className='border-main-shadow border-2 rounded-full py-4 px-5 w-min'>
-                                <p>12</p>
+                                <p>60+</p>
                             </div>
-                            <p>Projects Created</p>
+                            <p>Students Served</p>
                         </div>
                         <div className='flex flex-col justify-center items-center'>
                             <div className='border-main-shadow border-2 rounded-full py-4 px-5 w-min'>
-                                <p>12</p>
+                                <p>150+</p>
                             </div>
-                            <p>Projects Created</p>
-                        </div>
-                        <div className='flex flex-col justify-center items-center'>
-                            <div className='border-main-shadow border-2 rounded-full py-4 px-5 w-min'>
-                                <p>12</p>
-                            </div>
-                            <p>Projects Created</p>
-                        </div>
-                        <div className='flex flex-col justify-center items-center'>
-                            <div className='border-main-shadow border-2 rounded-full py-4 px-5 w-min'>
-                                <p>12</p>
-                            </div>
-                            <p>Projects Created</p>
-                        </div>
-                        <div className='flex flex-col justify-center items-center'>
-                            <div className='border-main-shadow border-2 rounded-full py-4 px-5 w-min'>
-                                <p>12</p>
-                            </div>
-                            <p>Projects Created</p>
+                            <p>Free Hours Provided</p>
                         </div>
                     </div>
 
