@@ -74,8 +74,13 @@ const Register = () => {
                     <div className='flex p-8 justify-between space-x-4'>
                         <div className='flex items-center w-1/2 py-4'>
                             <div className=''>
+                                <div className='flex space-x-4 items-center'>
                                 <p className='text-xl font-semibold text-center'>Math</p>
-                                <p className='text-lg text-center'>Using our mentors' experience in several math competitions such as Math Olympiad, AMC, NSML, MathCON, and several others, our competition math programs are tailored to train young students by introducing them to new techniques that will allow them to tackle difficult problems in a quick and efficient manner.</p>
+                            <div className='bg-orange-200 rounded-full px-2 py-1'>
+                                <p>In-Person</p>
+                            </div>
+                                </div>
+                                <p className='text-lg'>Using our mentors' experience in several math competitions such as Math Olympiad, AMC, NSML, MathCON, and several others, our competition math programs are tailored to train young students by introducing them to new techniques that will allow them to tackle difficult problems in a quick and efficient manner.</p>
                             </div>
                         </div>
                         <div className='w-1/2'>
@@ -88,7 +93,10 @@ const Register = () => {
                                     <p className='text-2xl font-semibold'>Mentors</p>
                                     <p>Abhay and Anmay</p>
                                 </div>
-
+                                <div className='text-center'>
+                                    <p className='text-2xl font-semibold'>Address</p>
+                                    <p>1532 Petersham Ln.</p>
+                                </div>
                                 <div className='bg-main-shadow flex justify-center py-2 text-white px-4 cursor-pointer'>
                                     <p className='font-semibold'>Click here to Register!</p>
                                 </div>

@@ -8,8 +8,8 @@ const Home = () => {
     return (
         <div>
             <div className='mx-20 mt-8'>
-                <div className='flex items-center justify-between overflow-clip bg-main shadow-main-shadow shadow-2xl'>
-                    <div className='space-y-14 w-1/2 pl-24'>
+                <div className='flex flex-col-reverse lg:flex-row items-center justify-between overflow-clip bg-main shadow-main-shadow shadow-2xl'>
+                    <div className='space-y-14 lg:w-1/2 lg:pl-24 p-16'>
                         <div className='space-y-6'>
                             <div className='text-5xl'>
                                 <p>Elevated</p>
@@ -41,19 +41,23 @@ const Home = () => {
                             </div> */}
                         </div>
                     </div>
-                    <div className='w-1/3  h-[33rem]'>
+                    <div className='lg:w-1/3 w-full h-[33rem]'>
                         <HeaderSide />
                     </div>
                 </div>
             </div>
             <div className='mx-20 mt-20'>
-                <div className='flex justify-between items-center border border-main-shadow rounded-lg'>
-                    <div className='w-1/3'>
-                        <img className='rounded-l-lg' src='/personstudying.png' />
+                <div className='lg:flex justify-between items-center border border-main-shadow rounded-lg'>
+                    <div className='lg:w-1/3'>
+                        <img className='rounded-l-lg w-full lg:h-full h-[33rem] object-cover' src='/personstudying.png' />
                     </div>
-                    <div className='w-2/3 p-14 h-max space-y-4 '>
+                    <div className='lg:w-2/3 p-14 h-max space-y-4'>
                         <p className='text-xl'>ABOUT US</p>
-                        <p>The inspiration for this program came when a few high-schoolers came together and realized that a lot of younger students never get to truly explore different fields and career paths when it comes to entering high school. Most students are either forced onto one career path from the start or they simply don't know where to start when it comes to exploring new topics. At Elevated Learning, we want to change this by introducing students to topics that they may not necessarily see before the high school experience. We also believe that knowledge should be equally accessible to students of all backgrounds, which is why all Elevated Learning programs will be free of charge for every student. Any money that we do raise through our program will be redirected to communities that need it most.</p>
+                        <div className='space-y-4'>
+                            <p>The inspiration for this program came when a few high-schoolers came together and realized that a lot of younger students never get to truly explore different fields and career paths when it comes to entering high school. Most students are either forced onto one career path from the start or they simply don't know where to start when it comes to exploring new topics.</p>
+                            <p>At Elevated Learning, we want to change this by introducing students to topics that they may not <span className='bg-orange-200 py-1 px-1.5 rounded'>necessarily</span> see before the high school experience. We also believe that knowledge should be equally accessible to students of all backgrounds, which is why all Elevated Learning programs will be free of charge for every student. Any money that we do raise through our program will be redirected to communities that need it most.</p>
+                        </div>
+
                     </div>
                 </div>
             </div>
