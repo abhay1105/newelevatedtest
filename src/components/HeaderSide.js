@@ -33,7 +33,7 @@ const HeaderSide = () => {
                     <div className='absolute w-full h-full'>
                         <div className='w-full h-full flex flex-col justify-between bg-gray-800 bg-opacity-30'>
                             <div className='p-10'>
-                                <p className='text-white text-4xl font-semibold'>Fall Classes Begin September 7th, 2022</p>
+                                <p className='text-white text-4xl font-semibold'>Fall Classes Begin September 4th, 2022</p>
                             </div>
                             <div className='flex p-10'>
                                 <div className='bg-white px-4 py-2'>

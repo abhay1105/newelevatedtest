@@ -6,14 +6,11 @@ const Mentors = () => {
         <div className='mx-20 mt-10'>
             <div>
                 <div className='bg-main py-4 px-8'>
-                    <p className='text-2xl'>Mentors</p>
-                </div>
-                <div className='mt-4'>
-                    <p className='text-lg'>Our mentors skruifh eriusncj slucnseirjnc alwjhluh fwlsjdcn waleiuewgfliuwj bs a alieufh laijnc claiwuhwjien ewiuajdn fweuflijew fkd iuslajf lwebfieuwl djs flawiu fw4jldjn fliuawjdf edhg fbkyrbkawb dkj wufhliw4uhf eiljf djns fiwu4f i4wdhjf kawnbe f4kdhjf iwuehf kejdb fwbnfnke fiwauwidjaf kawj aewkj bdfia3ufg eij kfwdjbf lwiu akljwe lfkj3h</p>
+                    <p className='text-4xl font-semibold'>Our Mentors</p>
                 </div>
             </div>
             <div className='grid grid-cols-3 gap-10 mt-4 mb-10'>
-                <MentorCard source="../../public/mentorImages/abhay.png" name="Abhay Paidipalli" bio="Abhay is a rising senior at James B. Conant High School and the founder of Elevated Learning. He is passionate about helping others and wants to pursue a career in math and computer science. In his spare time, he plays jazz music on his tenor saxophone."></MentorCard>
+                <MentorCard source="./../public/mentorImages/abhay.png" name="Abhay Paidipalli" bio="Abhay is a rising senior at James B. Conant High School and the founder of Elevated Learning. He is passionate about helping others and wants to pursue a career in math and computer science. In his spare time, he plays jazz music on his tenor saxophone."></MentorCard>
                 <MentorCard source="" name="Ananya Krishnan" bio="Ananya is a sophomore at Hoffman Estates High School. Her favorite hobby is soccer, which she has been playing for 9 years. She is on her school's debate, math, and trivia teams. She also participates in Hoffman's Business Professionals of America (BPA) club and went to state last year in Banking and Finance."></MentorCard>
                 <MentorCard source="" name="Prisha Mohan" bio="Prisha Mohan is currently a rising senior at James B. Conant High School where she is a co-founder of Mentoring Young Minds, captain of the congressional debate team, and current president of SASA. Outside of school, Prisha volunteers at Saint Alexian Brothers Medical Center and Friendship Village. She is also a part of the non-profits: USKIDS4WATER and Village Book Builders. Prisha is currently a Research Assistant at the University of Chicago since she plans to go into the medical field in the future."></MentorCard>
                 <MentorCard source="" name="Varshini Medempudi" bio=""></MentorCard>
