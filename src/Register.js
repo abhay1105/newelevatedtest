@@ -195,7 +195,7 @@ const Register = () => {
                         <div className='flex items-center w-1/2 py-4'>
                             <div className=''>
                                 <div className='flex space-x-4 items-center'>
-                                <p className='text-xl font-semibold text-center'>Multi-Media Camp</p>
+                                <p className='text-xl font-semibold text-center'>Multimedia Camp</p>
                             <div className='bg-orange-200 rounded-full px-2 py-1'>
                                 <p>Virtual</p>
                             </div>
