@@ -7,8 +7,8 @@ const Home = () => {
 
     return (
         <div>
-            <div className='mx-20 mt-8'>
-                <div className='flex flex-col-reverse lg:flex-row items-center justify-between overflow-clip bg-main shadow-main-shadow shadow-2xl'>
+            <div className='mx-4 lg:mx-20 mt-6'>
+                <div className='flex flex-col-reverse lg:flex-row lg:items-center lg:justify-between overflow-clip bg-main shadow-main-shadow shadow-2xl'>
                     <div className='space-y-14 lg:w-1/2 lg:pl-24 p-16'>
                         <div className='space-y-6'>
                             <div className='text-5xl'>
@@ -20,7 +20,7 @@ const Home = () => {
                                     <path d="M167 11.6786C162 11.6786 148.606 2.29498 136 2.29498C123.394 2.29498 117.593 12.2678 105 11.6786C94.0815 11.1677 89.4269 2.5402 78.5 2.29498C66.831 2.0331 61.6593 12.2401 50 11.6786C39.8179 11.1881 35.692 2.14936 25.5 2.29498C15.6736 2.43538 2 11.6786 2 11.6786" stroke="#3F4042" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
                                 </svg>
                             </div>
-                            <div className='text-lg'>
+                            <div className='text-2xl'>
                                 Advanced Programs for Learning and Exploration
                             </div>
                         </div>
@@ -41,17 +41,17 @@ const Home = () => {
                             </div> */}
                         </div>
                     </div>
-                    <div className='lg:w-1/3 w-full h-[33rem]'>
+                    <div className='lg:w-2/5 w-full h-[33rem]'>
                         <HeaderSide />
                     </div>
                 </div>
             </div>
-            <div className='mx-20 mt-20'>
+            <div className='mx-4 lg:mx-20 mt-10 lg:mt-20'>
                 <div className='lg:flex justify-between items-center border border-main-shadow rounded-lg'>
                     <div className='lg:w-1/3'>
                         <img className='rounded-l-lg w-full lg:h-full h-[33rem] object-cover' src='/personstudying.png' />
                     </div>
-                    <div className='lg:w-2/3 p-14 h-max space-y-4'>
+                    <div className='lg:w-2/3 p-6 lg:p-14 h-max space-y-4'>
                         <p className='text-xl'>ABOUT US</p>
                         <div className='space-y-4'>
                             <p>The inspiration for this program came when a few high-schoolers came together and realized that a lot of younger students never get to truly explore different fields and career paths when it comes to entering high school. Most students are either forced onto one career path from the start or they simply don't know where to being when it comes to exploring new topics.</p>
@@ -61,8 +61,8 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className='mx-20 mt-20'>
-                <div className='bg-main flex justify-between p-10 text-center'>
+            <div className='mx-4 lg:mx-20 mt-8 lg:mt-20 mb-6'>
+                {/* <div className='bg-main flex justify-between p-10 text-center'>
                     <div className='w-full flex justify-between items-center px-24'>
                         <div className='flex flex-col justify-center items-center'>
                             <div className='border-main-shadow border-2 rounded-full py-4 px-5 w-min'>
@@ -77,11 +77,42 @@ const Home = () => {
                             <p>Free Hours Provided</p>
                         </div>
                     </div>
-
-
+                </div> */}
+                <div className='flex flex-col-reverse lg:flex-row lg:my-20 justify-between lg:space-x-8'>
+                    <div className='w-full lg:w-1/2 grid grid-cols-2 gap-6'>
+                        <div className='border border-main-shadow py-8 flex justify-center rounded-lg items-center'>
+                            <div className='text-center'>
+                                <p className='text-4xl font-bold'>60+</p>
+                                <p className='text-xl'>Students Served</p>
+                            </div>
+                        </div>
+                        <div className='border border-main-shadow py-8 flex justify-center rounded-lg items-center'>
+                            <div className='text-center'>
+                                <p className='text-4xl font-bold'>150+</p>
+                                <p className='text-xl'>Free Hours Provided</p>
+                            </div>
+                        </div>
+                        <div className='border border-main-shadow py-8 flex justify-center rounded-lg items-center '>
+                            <div className='text-center'>
+                                <p className='text-4xl font-bold'>60+</p>
+                                <p className='text-xl'>Students Served</p>
+                            </div>
+                        </div>
+                        {/* <div className='border border-main-shadow'>
+                            <p>60+</p>
+                            <p>Students Served</p>
+                        </div>
+                        <div className='border border-main-shadow'>
+                            <p>60+</p>
+                            <p>Students Served</p>
+                        </div> */}
+                    </div>
+                    <div className='lg:w-1/2 mb-4 lg:mb-0'>
+                        <img className='rounded-lg lg:rounded-l-lg w-full lg:h-full h-[33rem] object-cover' src='https://images.unsplash.com/photo-1529390079861-591de354faf5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80' />
+                    </div>
                 </div>
             </div>
-            <div className='mx-20 py-10'>
+            {/* <div className='mx-20 py-10'>
                 <p className='text-xl mb-4'>Student Statements</p>
                 <div className='grid grid-cols-4 gap-4'>
                     <div className='border border-main-shadow p-4 rounded-lg'>
@@ -97,7 +128,7 @@ const Home = () => {
                         <p>"I love Elevated Learning!" - Mother of two</p>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
 
     )

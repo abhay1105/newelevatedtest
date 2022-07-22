@@ -10,6 +10,7 @@ import Scrapbook from './Scrapbook';
 import Mentors from './Mentors';
 import Navbar from './components/Navbar';
 import NotFound from './NotFound';
+import Footer from './components/Footer';
 
 function App() {
     return (
@@ -24,6 +25,7 @@ function App() {
                     <Route path='*' element={<NotFound />} />
                 </Routes>
             </Router>
+            <Footer />
         </div>
 
     );
