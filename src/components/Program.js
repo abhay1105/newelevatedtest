@@ -52,12 +52,12 @@ const Program = ({ title, description, day, timeText, mentorsText, locationText,
                         <p className='text-2xl font-semibold'>Location</p>
                         {
                             locationType == "link" ?
-                                <a target="_blank" href='https://www.google.com/maps/place/Schaumburg+Township+District+Library/'><p className='underline'>{locationText}</p></a>
+                                <p className='underline'><a target="_blank" href='https://www.google.com/maps/place/Schaumburg+Township+District+Library/@42.0255715,-88.0854818,17z/data=!3m1!4b1!4m5!3m4!1s0x880faf29a7da014b:0xd68dfda311bc1021!8m2!3d42.0255715!4d-88.0832931'>{locationText}</a></p>
                                 :
                                 <p className=''>{locationText}</p>
                         }
                     </div>
-                    <div className='bg-main-shadow flex justify-center py-2 text-white px-4 cursor-pointer'>
+                    <div className='bg-main-shadow flex justify-center py-2 text-white px-4 cursor-pointer rounded-md'>
                         <p className='font-semibold'>Register Now</p>
                     </div>
                 </div>

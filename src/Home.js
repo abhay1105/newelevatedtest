@@ -94,8 +94,14 @@ const Home = () => {
                         </div>
                         <div className='border border-main-shadow py-8 flex justify-center rounded-lg items-center '>
                             <div className='text-center'>
-                                <p className='text-4xl font-bold'>60+</p>
-                                <p className='text-xl'>Students Served</p>
+                                <p className='text-4xl font-bold'>1:5</p>
+                                <p className='text-xl'>Mentor-Student Ratio</p>
+                            </div>
+                        </div>
+                        <div className='border border-main-shadow py-8 flex justify-center rounded-lg items-center '>
+                            <div className='text-center'>
+                                <p className='text-4xl font-bold'>4</p>
+                                <p className='text-xl'>Countries Reached</p>
                             </div>
                         </div>
                         {/* <div className='border border-main-shadow'>
