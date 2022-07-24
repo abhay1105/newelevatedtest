@@ -20,7 +20,7 @@ const Register = () => {
                 </div>
                 <div className=''>
                     <div className='bg-main py-4 px-8'>
-                        <p className='text-xl font-semibold'>Classes Begin Sunday September 4th, 2022</p>
+                        <p className='text-xl font-semibold'>Virtual Classes Begin September 11, 2022</p>
                         <p className='text-l italic'>Scroll down to learn more about the programs we offer</p>
                     </div>
                 </div>

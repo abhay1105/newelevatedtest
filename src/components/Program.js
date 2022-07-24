@@ -13,11 +13,11 @@ const Program = ({ title, description, day, timeText, mentorsText, locationText,
     var newTag = "/new.png"
 
     return (
-        <div className='flex p-8 justify-between space-x-4 border border-main-shadow rounded-lg'>
-            <div className='h-full w-1/2'>
+        <div className='md:flex p-8 justify-between md:space-x-4 border border-main-shadow rounded-lg space-y-4 md:space-y-0'>
+            <div className='md:h-full md:w-1/2'>
                 <div className='h-full space-y-4'>
-                    <div className='lg:flex lg:space-x-4 items-center'>
-                        <p className='text-xl font-semibold lg:text-center'>{title}</p>
+                    <div className='lg:flex justify-between items-center'>
+                        <p className='text-xl font-semibold'>{title}</p>
                         <div className='flex'>
                             <div className='bg-orange-200 rounded-full px-2 py-1'>
                                 <p>{programType}</p>
@@ -31,7 +31,7 @@ const Program = ({ title, description, day, timeText, mentorsText, locationText,
 
                 </div>
             </div>
-            <div className='w-1/2 bg-main relative py-4'>
+            <div className='md:w-1/2 bg-main md:relative py-4'>
                 {
                     newProgram &&
                     <div className='w-full flex items-center justify-end'>

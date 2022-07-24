@@ -23,7 +23,7 @@ const Navbar = () => {
         //     </div>
         //     <div></div>
         // </div>
-        <div className="mt-6 w-full bg-main-bright">
+        <div className="mt-6 w-full">
             <div className="">
                 <div className="flex justify-between items-center mx-4 lg:mx-20">
                     <div className="lg:hidden flex space-x-4 items-center">
