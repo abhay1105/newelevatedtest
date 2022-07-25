@@ -20,8 +20,9 @@ const Register = () => {
                 </div>
                 <div className=''>
                     <div className='bg-main py-4 px-8'>
-                        <p className='text-xl font-semibold'>Virtual Classes Begin September 11, 2022</p>
-                        <p className='text-l italic'>Scroll down to learn more about the programs we offer</p>
+                        <p className='text-xl py-2 font-semibold'>SAT / AP Prep Begins September 4th, 2022</p>
+                        <p className='text-xl py-2 font-semibold'>Virtual Classes Begin September 11th, 2022</p>
+                        <p className='text-l py-2 italic'>Scroll down to learn more about the programs we offer</p>
                     </div>
                 </div>
             </div>
@@ -86,8 +87,8 @@ const Register = () => {
                     <Program 
                         title={"Multimedia Camp"} 
                         description={"This camp is designed for students who are interested in exploring the world of digital content creation. Covering a large spectrum of topics, from journalism to graphic design, this class will teach students to use different digital tools such as film and photo editors. They will then be able to utilize these skills along with their own creativity to create a project of their own."} 
-                        day={"Wednesdays"} 
-                        timeText={"6:00 -- 7:00 PM Central Time"} 
+                        day={"To Be Determined"} 
+                        timeText={"--"} 
                         mentorsText={"Sukriti Varma & Anmay Gupta"} 
                         locationText={"Zoom"} 
                         locationType={"normal"} 

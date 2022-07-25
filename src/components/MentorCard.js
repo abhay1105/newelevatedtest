@@ -16,7 +16,7 @@ const MentorCard = ({ source, name, bio }) => {
                             readMore ?
                                 <p className="text-lg">{bio}</p>
                                 :
-                                <p className="text-lg line-clamp-5">{bio}</p>
+                                <p className="text-lg line-clamp-3">{bio}</p>
                         }
                         {
                             readMore ?

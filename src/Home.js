@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
+import { RoughNotationGroup } from 'react-rough-notation'
 import HeaderSide from './components/HeaderSide'
-import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
+import RoughUnderline from './components/RoughUnderline'
 
 const Home = () => {
 
@@ -53,10 +54,12 @@ const Home = () => {
                         <img className='rounded-l-lg w-full lg:h-full h-[33rem] object-cover' src='/personstudying.png' />
                     </div>
                     <div className='lg:w-2/3 p-6 lg:p-14 h-max space-y-4'>
-                        <p className='text-3xl font-semibold'>ABOUT US</p>
-                        <div className='space-y-4'>
-                            <p>The inspiration for this program came when a few high-schoolers came together and realized that a lot of younger students never get to truly explore different fields and career paths when it comes to entering high school. Most students are either forced onto one career path from the start or they simply don't know where to being when it comes to exploring new topics.</p>
-                            <p>At Elevated Learning, we want to change this by introducing students to topics that they may not <span className='bg-orange-200 py-1 px-1.5 rounded'>necessarily</span> see before the high school experience. We also believe that knowledge should be equally accessible to students of all backgrounds, which is why all Elevated Learning programs are free of charge for every student. Any money that we do raise through our program will be redirected to communities that need it most.</p>
+                        <p className='text-3xl font-bold'>ABOUT US</p>
+                        <div className='space-y-4 text-2xl'>
+                            <RoughNotationGroup>
+                                <p>The <RoughUnderline text='inspiration' /> for this program came when a few high-schoolers came together and realized that a lot of younger students never get to truly <RoughUnderline text='explore' /> different fields and career paths when it comes to entering high school. Most students are either forced onto one career path from the start or they simply don't know where to begin when it comes to exploring new topics.</p>
+                                <p>At <RoughUnderline text='Elevated Learning' />, we want to change this by introducing students to topics that they may not necessarily see before the high school experience. We also believe that knowledge should be <RoughUnderline text='equally' /> to students of all backgrounds, which is why all Elevated Learning programs are <RoughUnderline text='free of charge' /> for every student. Any money that we do raise through our program will be redirected to communities that need it most.</p>
+                            </RoughNotationGroup>
                         </div>
                     </div>
                 </div>
