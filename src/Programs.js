@@ -29,8 +29,8 @@ const Register = () => {
             <div className='mt-4 mb-12'>
                 <div className='grid lg:grid-cols-2 mt-4 gap-6'>
                     <Program 
-                        title={"SAT / AP Prep"} 
-                        description={"These high school test preparation sessions are run by high school seniors with recent experience in taking several SAT & AP tests. They will provide younger students with the tips and skills that have allowed them to get exceptional scores."} 
+                        title={"SAT Prep"} 
+                        description={"These high school test preparation sessions are run by high school seniors with recent experience in taking SAT tests. They will provide younger students with the tips and skills that have allowed them to get exceptional scores."} 
                         day={"Sundays"} 
                         timeText={"1:00 -- 2:30 PM Central Time"} 
                         mentorsText={"Prisha Mohan & Ezra Goodwin"} 
@@ -83,7 +83,7 @@ const Register = () => {
                         programType={"Virtual"} 
                         newProgram={false} 
                     />
-                    <Program 
+                    {/* <Program 
                         title={"Multimedia Camp"} 
                         description={"This camp is designed for students who are interested in exploring the world of digital content creation. Covering a large spectrum of topics, from journalism to graphic design, this class will teach students to use different digital tools such as film and photo editors. They will then be able to utilize these skills along with their own creativity to create a project of their own."} 
                         day={"To Be Determined"} 
@@ -93,7 +93,7 @@ const Register = () => {
                         locationType={"normal"} 
                         programType={"Virtual"} 
                         newProgram={true} 
-                    />
+                    /> */}
                 </div>
             </div>
         </div>
