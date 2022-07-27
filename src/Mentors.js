@@ -3,9 +3,9 @@ import MentorCard from './components/MentorCard'
 
 const Mentors = () => {
     return (
-        <div className='mx-4 lg:mx-20 mt-4 lg:mt-10'>
+        <div className='mx-4 lg:mx-20 mt-4'>
             <div>
-                <div className='pt-4 pb-10 px-8'>
+                <div className='pb-6'>
                     <p className='text-5xl font-semibold'>Our Mentors</p>
                 </div>
             </div>

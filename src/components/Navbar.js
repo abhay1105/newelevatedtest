@@ -51,7 +51,7 @@ const Navbar = () => {
                                 <img src='/logo.png' />
                             </div>
                             <div className='flex space-x-16 text-lg w-72 items-centent justify-start'>
-                                <p><a href='/register'>Register</a></p>
+                                <p><a href='/programs'>Programs</a></p>
                                 <p><a href='/scrapbook'>Scrapbook</a></p>
                             </div>
                         </div>
@@ -62,7 +62,7 @@ const Navbar = () => {
                         <label onClick={() => {
                             console.log("ERIRE")
                             setClicked(!clicked)
-                        }} for="menu-toggle" className="pointer-cursor block lg:hidden block"><svg className="fill-current text-gray-900" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><title>menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path></svg></label>
+                        }} for="menu-toggle" className="pointer-cursor block lg:hidden block"><svg className="fill-current text-gray-900 w-10 h-10" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><title>menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path></svg></label>
                         <input className="hidden" type="checkbox" id="menu-toggle" />
                     </div>
                 </div>

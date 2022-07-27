@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { RoughNotationGroup } from 'react-rough-notation'
 import HeaderSide from './components/HeaderSide'
+import Info from './components/Info'
 import RoughUnderline from './components/RoughUnderline'
 
 const Home = () => {
@@ -27,7 +28,7 @@ const Home = () => {
                             </div>
                         </div>
                         <div className='flex items-center space-x-2'>
-                            <a className='flex items-center space-x-3 border border-main-shadow cursor-pointer' href='/register' >
+                            <a className='flex items-center space-x-3 border border-main-shadow cursor-pointer' href='/programs' >
                                 <div></div>
                                 <div className=''>
                                     <p>Register</p>
@@ -50,7 +51,7 @@ const Home = () => {
             </div>
             <div className='mx-4 lg:mx-20 mt-10 lg:mt-20'>
                 <div className='lg:flex justify-between items-center border border-main-shadow rounded-lg'>
-                    <div className='lg:w-1/3'>
+                    <div className='lg:w-1/3 w-full h-full'>
                         <img className='rounded-l-lg w-full lg:h-full h-[33rem] object-cover' src='/personstudying.png' />
                     </div>
                     <div className='lg:w-2/3 p-6 lg:p-14 h-max space-y-4'>
@@ -138,6 +139,7 @@ const Home = () => {
                     </div>
                 </div>
             </div> */}
+            <Info />
         </div>
 
     )

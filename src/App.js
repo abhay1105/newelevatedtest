@@ -5,7 +5,7 @@ import {
     Link
 } from 'react-router-dom';
 import Home from './Home';
-import Register from './Register';
+import Programs from './Programs';
 import Scrapbook from './Scrapbook';
 import Mentors from './Mentors';
 import Navbar from './components/Navbar';
@@ -19,7 +19,7 @@ function App() {
             <Router>
                 <Routes>
                     <Route exact path='/' element={< Home />}></Route>
-                    <Route exact path='/register' element={< Register />}></Route>
+                    <Route exact path='/programs' element={< Programs />}></Route>
                     <Route exact path='/scrapbook' element={< Scrapbook />}></Route>
                     <Route exact path='/mentors' element={< Mentors />}></Route>
                     <Route path='*' element={<NotFound />} />

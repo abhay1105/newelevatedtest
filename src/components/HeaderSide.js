@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react'
+import { urls } from '../urls';
 import Dots from './Dots';
 
 const HeaderSide = () => {
@@ -38,13 +39,15 @@ const HeaderSide = () => {
                                     <p className='text-white text-4xl font-semibold'>Fall Classes Begin September 4th, 2022</p>
                                 </div>
                                 <div className='flex p-10'>
-                                    <div className='bg-white px-4 py-2'>
-                                        <p className='text-black text-lg'>Register Now</p>
-                                    </div>
+                                    <a target="_blank" href={urls.REGISTRATION_FORM_URL}>
+                                        <div className='bg-white px-4 py-2 cursor-pointer'>
+                                            <p className='text-black text-lg'>Register Now</p>
+                                        </div>
+                                    </a>
                                 </div>
                             </div>
                             <div className='flex flex-col justify-center p-2'>
-                                <Dots currIndex={currImageIndex} setCurrIndex={setCurrImageIndex}/>
+                                <Dots currIndex={currImageIndex} setCurrIndex={setCurrImageIndex} />
                             </div>
                         </div>
 
@@ -62,13 +65,15 @@ const HeaderSide = () => {
                                     <p className='text-white text-4xl font-semibold'>Interested in Becoming a Mentor?</p>
                                 </div>
                                 <div className='flex p-10'>
-                                    <div className='bg-white px-4 py-2'>
-                                        <p className='text-black text-lg'>Contact Us</p>
-                                    </div>
+                                    <a target="_blank" href={urls.MENTOR_FORM_URL}>
+                                        <div className='bg-white px-4 py-2 cursor-pointer'>
+                                            <p className='text-black text-lg'>Contact Us</p>
+                                        </div>
+                                    </a>
                                 </div>
                             </div>
                             <div className='flex flex-col justify-center p-2'>
-                                <Dots currIndex={currImageIndex} setCurrIndex={setCurrImageIndex}/>
+                                <Dots currIndex={currImageIndex} setCurrIndex={setCurrImageIndex} />
                             </div>
                         </div>
 
@@ -86,13 +91,15 @@ const HeaderSide = () => {
                                     <p className='text-white text-4xl font-semibold'>Want to Provide Feedback & Testimonials?</p>
                                 </div>
                                 <div className='flex p-10'>
-                                    <div className='bg-white px-4 py-2'>
-                                        <p className='text-black text-lg'>Complete Our Survey</p>
-                                    </div>
+                                    <a target="_blank" href={urls.FEEDBACK_FORM_URL}>
+                                        <div className='bg-white px-4 py-2 cursor-pointer'>
+                                            <p className='text-black text-lg'>Complete Our Survey</p>
+                                        </div>
+                                    </a>
                                 </div>
                             </div>
                             <div className='flex flex-col justify-center p-2'>
-                                <Dots currIndex={currImageIndex} setCurrIndex={setCurrImageIndex}/>
+                                <Dots currIndex={currImageIndex} setCurrIndex={setCurrImageIndex} />
                             </div>
                         </div>
 

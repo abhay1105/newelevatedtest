@@ -1,4 +1,5 @@
 import React from 'react'
+import { urls } from '../urls';
 
 const Program = ({ title, description, day, timeText, mentorsText, locationText, locationType, programType, newProgram }) => {
 
@@ -31,7 +32,7 @@ const Program = ({ title, description, day, timeText, mentorsText, locationText,
 
                 </div>
             </div>
-            <div className='md:w-1/2 bg-main md:relative py-4'>
+            <div className='md:w-1/2 bg-main relative py-4'>
                 {
                     newProgram &&
                     <div className='w-full flex items-center justify-end'>
@@ -57,9 +58,11 @@ const Program = ({ title, description, day, timeText, mentorsText, locationText,
                                 <p className=''>{locationText}</p>
                         }
                     </div>
-                    <div className='bg-main-shadow flex justify-center py-2 text-white px-4 cursor-pointer rounded-md'>
-                        <p className='font-semibold'>Register Now</p>
-                    </div>
+                    <a target="_blank" href={urls.REGISTRATION_FORM_URL}>
+                        <div className='bg-main-shadow flex justify-center py-2 text-white px-4 cursor-pointer rounded-md'>
+                            <p className='font-semibold'>Register Now</p>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
