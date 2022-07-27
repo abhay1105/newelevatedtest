@@ -29,6 +29,17 @@ const Register = () => {
             <div className='mt-4 mb-12'>
                 <div className='grid lg:grid-cols-2 mt-4 gap-6'>
                     <Program 
+                        title={"Competition Math"} 
+                        description={"Using our mentors' experience in several math competitions such as Math Olympiad, AMC, NSML, MathCON, and several others, our competition math program is tailored to train young students by introducing them to new techniques that will allow them to tackle difficult problems in a quick and efficient manner."} 
+                        day={"Sundays"} 
+                        timeText={"9:00 -- 10:00 AM Central Time"} 
+                        mentorsText={"Abhay Paidipalli & Anmay Gupta"} 
+                        locationText={"Zoom"} 
+                        locationType={"normal"} 
+                        programType={"Virtual"} 
+                        newProgram={false} 
+                    />
+                    <Program 
                         title={"SAT Prep"} 
                         description={"These high school test preparation sessions are run by high school seniors with recent experience in taking SAT tests. They will provide younger students with the tips and skills that have allowed them to get exceptional scores."} 
                         day={"Sundays"} 
@@ -40,11 +51,11 @@ const Register = () => {
                         newProgram={true} 
                     />
                     <Program 
-                        title={"Competition Math"} 
-                        description={"Using our mentors' experience in several math competitions such as Math Olympiad, AMC, NSML, MathCON, and several others, our competition math program is tailored to train young students by introducing them to new techniques that will allow them to tackle difficult problems in a quick and efficient manner."} 
-                        day={"Sundays"} 
-                        timeText={"9:00 -- 10:00 AM Central Time"} 
-                        mentorsText={"Abhay Paidipalli & Anmay Gupta"} 
+                        title={"Business Fundamentals"} 
+                        description={"Our business class will focus on teaching students basic concepts that pertain to the business world, from investing to business management. This will be done through a hands-on approach replicating parts of the popular TV show: Shark Tank."} 
+                        day={"Mondays"} 
+                        timeText={"7:00 -- 8:00 PM Central Time"} 
+                        mentorsText={"Rady Kolev & Tyler Marrazzo"} 
                         locationText={"Zoom"} 
                         locationType={"normal"} 
                         programType={"Virtual"} 
@@ -60,17 +71,6 @@ const Register = () => {
                         locationType={"normal"} 
                         programType={"Virtual"} 
                         newProgram={true} 
-                    />
-                    <Program 
-                        title={"Business Fundamentals"} 
-                        description={"Our business class will focus on teaching students basic concepts that pertain to the business world, from investing to business management. This will be done through a hands-on approach replicating parts of the popular TV show: Shark Tank."} 
-                        day={"Mondays"} 
-                        timeText={"7:00 -- 8:00 PM Central Time"} 
-                        mentorsText={"Rady Kolev & Tyler Marrazzo"} 
-                        locationText={"Zoom"} 
-                        locationType={"normal"} 
-                        programType={"Virtual"} 
-                        newProgram={false} 
                     />
                     <Program 
                         title={"Public Speaking"} 

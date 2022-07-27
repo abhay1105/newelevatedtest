@@ -36,7 +36,7 @@ const HeaderSide = () => {
                         <div className='flex h-full bg-gray-800 bg-opacity-30'>
                             <div className='w-full h-full flex flex-col justify-between '>
                                 <div className='p-10'>
-                                    <p className='text-white text-4xl font-semibold'>Fall Classes Begin September 4th, 2022</p>
+                                    <p className='text-white text-4xl font-semibold'>Fall Classes Begin September 11th, 2022</p>
                                 </div>
                                 <div className='flex p-10'>
                                     <a target="_blank" href={urls.REGISTRATION_FORM_URL}>
