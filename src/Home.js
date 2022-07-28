@@ -92,7 +92,7 @@ const Home = () => {
                         </div>
                         <div className='border border-main-shadow py-8 flex justify-center rounded-lg items-center'>
                             <div className='text-center'>
-                                <p className='text-4xl font-bold'>150+</p>
+                                <p className='text-4xl font-bold'>200+</p>
                                 <p className='text-xl'>Free Hours Provided</p>
                             </div>
                         </div>
