@@ -77,8 +77,8 @@ const Navbar = () => {
                                             Home
                                         </a>
                                         <a className="flex justify-end py-3 px-0 block border-b-2 hover:border-indigo-400" href="/mentors">Mentors</a>
-                                        <a className="flex justify-end py-3 px-0 block border-b-2 hover:border-indigo-400" href="/register">
-                                            Register</a>
+                                        <a className="flex justify-end py-3 px-0 block border-b-2 hover:border-indigo-400" href="/programs">
+                                            Programs</a>
                                         <a className="flex justify-end py-3 px-0 block border-b-2 hover:border-indigo-400" href="/scrapbook">
                                             Scrapbook</a>
                                     </ul>
