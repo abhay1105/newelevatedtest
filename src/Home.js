@@ -39,9 +39,6 @@ const Home = () => {
                                     </svg>
                                 </div>
                             </a>
-                            {/* <div className='text-lg'>
-                                <p>*Classes start on 05/06/2022</p>
-                            </div> */}
                         </div>
                     </div>
                     <div className='lg:w-2/5 w-full h-[33rem]'>
@@ -66,22 +63,6 @@ const Home = () => {
                 </div>
             </div>
             <div className='mx-4 lg:mx-20 mt-8 lg:mt-20 mb-6'>
-                {/* <div className='bg-main flex justify-between p-10 text-center'>
-                    <div className='w-full flex justify-between items-center px-24'>
-                        <div className='flex flex-col justify-center items-center'>
-                            <div className='border-main-shadow border-2 rounded-full py-4 px-5 w-min'>
-                                <p>60+</p>
-                            </div>
-                            <p>Students Served</p>
-                        </div>
-                        <div className='flex flex-col justify-center items-center'>
-                            <div className='border-main-shadow border-2 rounded-full py-4 px-5 w-min'>
-                                <p>150+</p>
-                            </div>
-                            <p>Free Hours Provided</p>
-                        </div>
-                    </div>
-                </div> */}
                 <div className='flex flex-col-reverse lg:flex-row lg:my-20 justify-between lg:space-x-8'>
                     <div className='w-full lg:w-1/2 grid grid-cols-2 gap-6'>
                         <div className='border border-main-shadow py-8 flex justify-center rounded-lg items-center'>
@@ -108,20 +89,22 @@ const Home = () => {
                                 <p className='text-xl'>Countries Reached</p>
                             </div>
                         </div>
-                        {/* <div className='border border-main-shadow'>
-                            <p>60+</p>
-                            <p>Students Served</p>
-                        </div>
-                        <div className='border border-main-shadow'>
-                            <p>60+</p>
-                            <p>Students Served</p>
-                        </div> */}
                     </div>
                     <div className='lg:w-1/2 mb-4 lg:mb-0'>
                         <img className='rounded-lg lg:rounded-l-lg w-full lg:h-full h-[33rem] object-cover' src='https://images.unsplash.com/photo-1529390079861-591de354faf5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80' />
                     </div>
                 </div>
             </div>
+            {/* <div>
+                <div>
+                    <p className='text-center text-2xl'>Partners</p>
+                </div>
+                <div>
+                    <img src='/facebook.png'/>
+                </div>
+            </div> */}
+
+            
             {/* <div className='mx-20 py-10'>
                 <p className='text-xl mb-4'>Student Statements</p>
                 <div className='grid grid-cols-4 gap-4'>
