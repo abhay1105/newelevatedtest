@@ -45,10 +45,10 @@ const Program = ({ title, description, day, timeText, mentorsText, locationText,
                         <p className='text-2xl font-semibold'>{day}</p>
                         <p>{timeText}</p>
                     </div>
-                    <div className='text-center'>
+                    {/* <div className='text-center'>
                         <p className='text-2xl font-semibold'>Mentors</p>
                         <p>{mentorsText}</p>
-                    </div>
+                    </div> */}
                     <div className='text-center'>
                         <p className='text-2xl font-semibold'>Location</p>
                         {
