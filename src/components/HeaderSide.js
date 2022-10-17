@@ -36,6 +36,32 @@ const HeaderSide = () => {
                         <div className='flex h-full bg-gray-800 bg-opacity-30'>
                             <div className='w-full h-full flex flex-col justify-between '>
                                 <div className='p-10'>
+                                    <p className='text-white text-4xl font-semibold'>Check Out Our Scrapbook!</p>
+                                </div>
+                                <div className='flex p-10'>
+                                    <a target="_blank" href={urls.SCRAPBOOK_URL}>
+                                        <div className='bg-white px-4 py-2 cursor-pointer'>
+                                            <p className='text-black text-lg'>Click Here</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div className='flex flex-col justify-center p-2'>
+                                <Dots currIndex={currImageIndex} setCurrIndex={setCurrImageIndex} />
+                            </div>
+                        </div>
+
+                    </div>
+                    <img src='/crierArticleImg.jpeg' className='h-full w-full object-cover' />
+                </div>
+            }
+            {
+                currImageIndex == 1 &&
+                <div className='relative h-full w-full'>
+                    <div className='absolute w-full h-full'>
+                        <div className='flex h-full bg-gray-800 bg-opacity-30'>
+                            <div className='w-full h-full flex flex-col justify-between '>
+                                <div className='p-10'>
                                     <p className='text-white text-4xl font-semibold'>Fall Classes Begin September 11th, 2022</p>
                                 </div>
                                 <div className='flex p-10'>
@@ -53,32 +79,6 @@ const HeaderSide = () => {
 
                     </div>
                     <img src='https://images.unsplash.com/photo-1444492417251-9c84a5fa18e0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2835&q=80' className='h-full w-full object-cover' />
-                </div>
-            }
-            {
-                currImageIndex == 1 &&
-                <div className='relative h-full w-full'>
-                    <div className='absolute w-full h-full'>
-                        <div className='flex h-full bg-gray-800 bg-opacity-30'>
-                            <div className='w-full h-full flex flex-col justify-between '>
-                                <div className='p-10'>
-                                    <p className='text-white text-4xl font-semibold'>Interested in Becoming a Mentor?</p>
-                                </div>
-                                <div className='flex p-10'>
-                                    <a target="_blank" href={urls.MENTOR_FORM_URL}>
-                                        <div className='bg-white px-4 py-2 cursor-pointer'>
-                                            <p className='text-black text-lg'>Contact Us</p>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div className='flex flex-col justify-center p-2'>
-                                <Dots currIndex={currImageIndex} setCurrIndex={setCurrImageIndex} />
-                            </div>
-                        </div>
-
-                    </div>
-                    <img src='https://images.unsplash.com/photo-1620829813947-ef4246827355?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80' className='h-full w-full object-cover' />
                 </div>
             }
             {
