@@ -17,13 +17,16 @@ const Home = () => {
                             <div className='text-5xl'>
                                 <p>Elevated</p>
                                 <p className='font-bold text-6xl'>Learning</p>
+                                <div className='text-xl font-semibold italic text-main-shadow'>
+                                Established 2019
+                            </div>
                             </div>
                             <div className=''>
                                 <svg width="169" height="14" viewBox="0 0 169 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M167 11.6786C162 11.6786 148.606 2.29498 136 2.29498C123.394 2.29498 117.593 12.2678 105 11.6786C94.0815 11.1677 89.4269 2.5402 78.5 2.29498C66.831 2.0331 61.6593 12.2401 50 11.6786C39.8179 11.1881 35.692 2.14936 25.5 2.29498C15.6736 2.43538 2 11.6786 2 11.6786" stroke="#3F4042" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
                                 </svg>
                             </div>
-                            <div className='text-2xl'>
+                            <div className='text-3xl'>
                                 Advanced Programs for Learning and Exploration
                             </div>
                         </div>

@@ -12,7 +12,7 @@ const Footer = () => {
                 <PrivacyPolicy />
             </div>
             <div>
-                <p className="text-center text-background font-semibold">© 2021 ELEVATED LEARNING Illinois Registered Nonprofit</p>
+                <p className="text-center text-background font-semibold">Est. 2019 © 2022 ELEVATED LEARNING Illinois Registered Nonprofit</p>
             </div>
         </div>
     )
