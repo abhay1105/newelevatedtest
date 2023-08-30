@@ -62,15 +62,15 @@ const HeaderSide = () => {
                         <div className='flex h-full bg-gray-800 bg-opacity-30'>
                             <div className='w-full h-full flex flex-col justify-between '>
                                 <div className='p-10'>
-                                    <p className='text-white text-4xl font-semibold'>Fall Classes Begin September 11th, 2022</p>
+                                    <p className='text-white text-4xl font-semibold'>Registration Information for 2023-2024 Coming Soon</p>
                                 </div>
-                                <div className='flex p-10'>
+                                {/* <div className='flex p-10'>
                                     <a target="_blank" href={urls.REGISTRATION_FORM_URL}>
                                         <div className='bg-white px-4 py-2 cursor-pointer'>
                                             <p className='text-black text-lg'>Register Now</p>
                                         </div>
                                     </a>
-                                </div>
+                                </div> */}
                             </div>
                             <div className='flex flex-col justify-center p-2'>
                                 <Dots currIndex={currImageIndex} setCurrIndex={setCurrImageIndex} />

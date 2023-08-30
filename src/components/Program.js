@@ -58,11 +58,11 @@ const Program = ({ title, description, day, timeText, mentorsText, locationText,
                                 <p className=''>{locationText}</p>
                         }
                     </div>
-                    <a target="_blank" href={urls.REGISTRATION_FORM_URL}>
+                    {/* <a target="_blank" href={urls.REGISTRATION_FORM_URL}>
                         <div className='bg-main-shadow flex justify-center py-2 text-white px-4 cursor-pointer rounded-md'>
                             <p className='font-semibold'>Register Now</p>
                         </div>
-                    </a>
+                    </a> */}
                 </div>
             </div>
         </div>
